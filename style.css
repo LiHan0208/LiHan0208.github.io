@@ -1,0 +1,28 @@
+/* 這是一個 CSS 注釋，用於提供說明或註釋 */
+
+/* 重置部分標籤的默認樣式 */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* 設置頁面背景顏色和文字顏色 */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* 設置標題樣式 */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 設置段落樣式 */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
