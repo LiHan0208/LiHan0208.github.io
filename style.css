@@ -8,14 +8,14 @@ body, h1, p {
 
 /* 設置頁面背景顏色和文字顏色 */
 body {
-    background-color: #f0f0f0;
+    background-color: #FFFAF0;
     color: #333;
     font-family: Arial, sans-serif;
 }
 
 /* 設置標題樣式 */
 h1 {
-    font-size: 24px;
+    font-size: 54px;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -31,8 +31,6 @@ dialog{
     box-shadow: 0 2px 6px #ccc;
     border-radius: 10px;
   }
-  <style>
-  .centered-title {
-      text-align: center;
-  }
-</style>
+<style>
+  .Dimgray-text{color:rgb(105,105,105)}
+  </style>
