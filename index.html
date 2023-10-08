@@ -47,22 +47,22 @@
 <img src="https://www.linkpicture.com/q/Soul-Cat.jpg" alt="Cat">
 <button id="showDialog">電影角色解答</button>
 
-<dialog id="myDialog">
+<dialog id="myDialog2">
     <p>這題有點難...是Soul裡Joe無意變成的寵物貓🐱</p>
-    <button id="closeDialog">關閉</button>
+    <button id="closeDialog2">關閉</button>
 </dialog>
 
 <script>
     var showDialogButton = document.getElementById("showDialog");
-    var myDialog = document.getElementById("myDialog");
-    var closeDialogButton = document.getElementById("closeDialog");
+    var myDialog = document.getElementById("myDialog2");
+    var closeDialogButton = document.getElementById("closeDialog2");
 
     showDialogButton.addEventListener("click", function() {
-        myDialog.showModal();
+        myDialog2.showModal();
     });
 
     closeDialogButton.addEventListener("click", function() {
-        myDialog.close();
+        myDialog2.close();
     });
 </script>
 
