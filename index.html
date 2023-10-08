@@ -11,13 +11,13 @@
 <body>
     <h1 class="centered-title">Welcome to my blog</h1>
     <h2 class="centered-title">不專業電影分享</h2>
-    <p>猜猜這是誰？</p>
-    <button id="showDialog">電影角色解答</button>
+    <p>1.猜猜這是誰？</p>
+
     <img src="https://www.linkpicture.com/q/Leon.jpeg" alt="Mathilda">
-    
+    <button id="showDialog">電影角色解答</button>
     
     <dialog id="myDialog">
-        <p>是 Leon/The Professional 的 Mathilda Lando 噢 🥛</p>
+        <p>是 Leon/The Professional 的女主角 Mathilda Lando 噢 🥛</p>
         <button id="closeDialog">關閉</button>
     </dialog>
 
@@ -35,12 +35,43 @@
         });
     </script>
 
-<p>簡介：Leon/The Professional/終極追殺令 是1994年英語法國電影 由盧·貝松編劇及執導 </p>
+<p>簡介：Leon/The Professional/終極追殺令 1994年英語法國電影 由盧·貝松編劇及執導（曾執導/監製《露西》《即刻救援》系列等電影） </p>
 <p>❤️ 台詞：“It's always the same thing.It's when you start to become really afraid of death…that you learn to appreciate life.”</p>
-<p>❤️ 場景：片尾Mathilda把Leon的盆栽種到了陽光下的一片綠地🌱</p>
-<p></p>
+<p>❤️ 場景：最後Mathilda把Leon的盆栽種到了陽光下的一片綠地🌱</p>
 <p>歡迎點擊預告片：
 <a href="https://youtu.be/FLwGSNiLeTs?si=Gfggp46Kj-yn1peB">Leon/The Professional</a>
+</p>
+
+<p>2.認識這個角色嗎？</p>
+
+<img src="https://www.linkpicture.com/q/Soul-Cat.jpg" alt="Cat">
+<button id="showDialog">電影角色解答</button>
+
+<dialog id="myDialog">
+    <p>這題有點難...是Soul裡Joe無意變成的寵物貓🐱</p>
+    <button id="closeDialog">關閉</button>
+</dialog>
+
+<script>
+    var showDialogButton = document.getElementById("showDialog");
+    var myDialog = document.getElementById("myDialog");
+    var closeDialogButton = document.getElementById("closeDialog");
+
+    showDialogButton.addEventListener("click", function() {
+        myDialog.showModal();
+    });
+
+    closeDialogButton.addEventListener("click", function() {
+        myDialog.close();
+    });
+</script>
+
+<p>簡介：Soul/靈魂急轉彎 2020年的迪士尼動畫電影 由皮克斯資深導演彼特·達克特執導 </p>
+<p>❤️ 台詞："A spark isn't a soul’s purpose.""you can't crush a soul here.That's what life on Earth is for."</p>
+<p>"Life is full of possibilities. You just need to know where to look. Don't miss out on the joys of life."</p>
+<p>❤️ 場景：Joe仔細感受著平凡生活中的一切並說道“”I'm going to live every minute of it.</p>
+<p>歡迎點擊預告片：
+<a href="https://youtu.be/-RAdHJ-aquE?si=zNPssyMUR2z45Il-">Soul</a>
 </p>
 
 </body>
