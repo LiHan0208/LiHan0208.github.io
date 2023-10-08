@@ -14,24 +14,24 @@
     <p>1.猜猜這是誰？</p>
 
     <img src="https://www.linkpicture.com/q/Leon.jpeg" alt="Mathilda">
-    <button id="showDialog">電影角色解答</button>
+    <button id="showDialog1">電影角色解答</button>
     
-    <dialog id="myDialog">
+    <dialog id="myDialog1">
         <p>是 Leon/The Professional 的女主角 Mathilda Lando 噢 🥛</p>
-        <button id="closeDialog">關閉</button>
+        <button id="closeDialog1">關閉</button>
     </dialog>
 
     <script>
-        var showDialogButton = document.getElementById("showDialog");
-        var myDialog = document.getElementById("myDialog");
-        var closeDialogButton = document.getElementById("closeDialog");
+        var showDialogButton = document.getElementById("showDialog1");
+        var myDialog = document.getElementById("myDialog1");
+        var closeDialogButton = document.getElementById("closeDialog1");
 
         showDialogButton.addEventListener("click", function() {
-            myDialog.showModal();
+            myDialog1.showModal();
         });
 
         closeDialogButton.addEventListener("click", function() {
-            myDialog.close();
+            myDialog1.close();
         });
     </script>
 
