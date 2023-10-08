@@ -16,11 +16,26 @@
     <img src="https://www.linkpicture.com/q/Leon.jpeg" alt="Mathilda">
     <a href="https://youtu.be/FLwGSNiLeTs?si=Gfggp46Kj-yn1peB">Leon/The Professional Trailer</a>
 
-    <button id="show">show</button>
-    <dialog id="infoModal">
-        <p>是電影Leon/The Professional中的女主角Mathilda噢</p>
-        <button id="close">close</button>
+    <button id="showDialog">電影角色解答</button>
+
+    <dialog id="myDialog">
+        <p>是Leon/The Professional電影中的Mathilda噢</p>
+        <button id="closeDialog">關閉</button>
     </dialog>
+
+    <script>
+        var showDialogButton = document.getElementById("showDialog");
+        var myDialog = document.getElementById("myDialog");
+        var closeDialogButton = document.getElementById("closeDialog");
+
+        showDialogButton.addEventListener("click", function() {
+            myDialog.showModal();
+        });
+
+        closeDialogButton.addEventListener("click", function() {
+            myDialog.close();
+        });
+    </script>
 
 
 </body>
