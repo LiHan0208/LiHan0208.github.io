@@ -157,6 +157,16 @@ $(document).ready(function() {
     <a href="https://www.youtube.com/@yuegemovie/featured" target="_blank">私心推薦電影解說頻道</a></p>&nbsp;&nbsp;
 </p>
 
+<script>if (navigator.geolocation) {
+
+    navigator.geolocation.getCurrentPosition(function(position) {
+  
+      $("#data").html("latitude: " + position.coords.latitude + "<br>longitude: " + position.coords.longitude);
+  
+    });
+  
+  }</script>
+
 </body>
 </main>
 </html>
