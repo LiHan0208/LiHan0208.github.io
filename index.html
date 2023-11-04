@@ -5,13 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Han's Blog</title>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function() {
-            $("#showDialog1").addClass("blue-text");
-            $("#showDialog2").addClass("blue-text");
-            $("#showDialog3").addClass("blue-text");
-        });
-    </script>
+   
     
 </head>
 <style>
@@ -32,6 +26,10 @@ dialog{
   }
 
   .Dimgray-text{color:rgb(105,105,105)}
+  
+  .blue-text {
+    color: rgb(26, 26, 172);
+}
 
 
 </style>
@@ -54,6 +52,9 @@ dialog{
     </dialog>
 
     <script>
+$(document).ready(function() {
+            $("#showDialog1").addClass("blue-text");
+        });
         var showDialogButton = document.getElementById("showDialog1");
         var myDialog = document.getElementById("myDialog1");
         var closeDialogButton = document.getElementById("closeDialog1");
@@ -87,6 +88,8 @@ dialog{
 </dialog>
 
 <script>
+    $("#showDialog2").addClass("blue-text");
+    
     var showDialogButton = document.getElementById("showDialog2");
     var myDialog = document.getElementById("myDialog2");
     var closeDialogButton = document.getElementById("closeDialog2");
@@ -121,6 +124,7 @@ dialog{
 </dialog>
 
 <script>
+     $("#showDialog3").addClass("blue-text");
     var showDialogButton = document.getElementById("showDialog3");
     var myDialog = document.getElementById("myDialog3");
     var closeDialogButton = document.getElementById("closeDialog3");
